@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108" role="img" aria-label="Bachelor Hisab app logo">
+  <!-- Background Shield / Hexagon Emblem -->
+  <path fill="#064E3B" d="M54,12 L88,28 L88,68 L54,96 L20,68 L20,28 Z" />
+  <path fill="#047857" d="M54,16 L84,30 L84,66 L54,92 L24,66 L24,30 Z" />
+
+  <!-- Main Wallet Frame -->
+  <path fill="#34D399" d="M32,38 H70 C72.2,38 74,39.8 74,42 V66 C74,68.2 72.2,70 70,70 H32 C29.8,70 28,68.2 28,66 V42 C28,39.8 29.8,38 32,38 Z" />
+
+  <!-- Inner Accent Layer -->
+  <path fill="#059669" d="M30,44 H72 V64 H30 Z" />
+
+  <!-- Wallet Flap -->
+  <path fill="#10B981" d="M28,42 C28,39.8 29.8,38 32,38 H64 C66.2,38 68,39.8 68,42 V48 H28 V42 Z" />
+
+  <!-- Gold Coin / Badge with Taka Currency Sign -->
+  <path fill="#F59E0B" d="M66,54 A8,8 0 1,1 66,53.99 Z" />
+  <path fill="#FCD34D" d="M66,54 A6,6 0 1,1 66,53.99 Z" />
+  <path fill="#78350F" d="M64.5,50.5 H67.5 V52 H66 V56.5 H64.5 V52 H64.5 Z" />
+
+  <!-- Chart / Analytics bar indicators on wallet -->
+  <path fill="#A7F3D0" d="M35,58 H39 V61 H35 Z M42,53 H46 V61 H42 Z M49,48 H53 V61 H49 Z" />
+</svg>

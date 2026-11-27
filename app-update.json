@@ -1,7 +1,8 @@
 {
   "latestVersionCode": 2,
   "latestVersionName": "1.1.0",
-  "url": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest",
+  "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest",
   "forceUpdate": false,
   "notes": "Adds transaction editing, monthly balance & budget scoping with month switcher, first-run onboarding with sample data, and reliable GitHub update checks."
 }
