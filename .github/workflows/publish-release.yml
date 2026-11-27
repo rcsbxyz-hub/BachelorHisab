@@ -1,0 +1,50 @@
+name: Publish Android APK Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v1.1.0)"
+        required: true
+        default: "v1.1.0"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish GitHub Release with APK
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            TAG="${{ github.event.inputs.tag }}"
+          fi
+          APK="releases/BachelorHisab-${TAG}.apk"
+          if [ ! -f "$APK" ]; then
+            echo "APK not found at $APK"
+            exit 1
+          fi
+          NOTES=$(python3 -c 'import json; d=json.load(open("app-update.json")); print(d.get("notes", ""))')
+          BODY="Bilingual (বাংলা + English) offline expense, mess meal, lend/borrow, and monthly budget tracker for students.
+
+### What's new in ${TAG}
+${NOTES}
+
+Official website: https://rcsbxyz-hub.github.io/BachelorHisab/"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$APK" --clobber
+            gh release edit "$TAG" --title "BachelorHisab ${TAG}" --notes "$BODY" --latest
+          else
+            gh release create "$TAG" "$APK" --title "BachelorHisab ${TAG}" --notes "$BODY" --latest
+          fi
