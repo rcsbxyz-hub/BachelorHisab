@@ -1,70 +1,258 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — BachelorHisab (ব্যাচেলর হিসাব)</title>
-  <style>
-    :root {
-      --bg: #f5f8f6;
-      --surface: #ffffff;
-      --primary: #047857;
-      --text: #0f172a;
-      --muted: #475569;
-      --border: #d8e3dd;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: "Hind Siliguri", system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
-    }
-    main {
-      max-width: 780px;
-      margin: 32px auto;
-      padding: 28px 24px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-    }
-    h1 { color: var(--primary); margin-top: 0; font-size: 1.75rem; }
-    h2 { color: var(--primary); margin-top: 28px; font-size: 1.2rem; }
-    p, li { color: var(--text); }
-    .muted { color: var(--muted); font-size: 0.92rem; }
-    hr { border: 0; border-top: 1px solid var(--border); margin: 28px 0; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>গোপনীয়তা নীতি — BachelorHisab</title>
+<meta name="description" content="BachelorHisab গোপনীয়তা নীতি — ১০০% অফলাইন, কোনো অ্যাকাউন্ট বা বিজ্ঞাপন নেই। সকল হিসাব শুধু আপনার ফোনেই সংরক্ষিত থাকে।">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/hind_siliguri_regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/hind_siliguri_bold.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+/* ── Fonts (identical to index.html) ────────────────────────────────────── */
+@font-face { font-family:'Hind Siliguri'; src:url('fonts/hind_siliguri_regular.ttf') format('truetype'); font-weight:400; font-display:swap; }
+@font-face { font-family:'Hind Siliguri'; src:url('fonts/hind_siliguri_medium.ttf') format('truetype'); font-weight:500; font-display:swap; }
+@font-face { font-family:'Hind Siliguri'; src:url('fonts/hind_siliguri_semibold.ttf') format('truetype'); font-weight:600; font-display:swap; }
+@font-face { font-family:'Hind Siliguri'; src:url('fonts/hind_siliguri_bold.ttf') format('truetype'); font-weight:700; font-display:swap; }
+
+/* ── Tokens (identical to index.html) ───────────────────────────────────── */
+:root{
+  --emerald:#047857;
+  --emerald-700:#065F46;
+  --emerald-900:#064E3B;
+  --emerald-50:#ECFDF5;
+  --emerald-100:#D1FAE5;
+  --ink:#0C1F18;
+  --ink-2:#254136;
+  --muted:#5A7066;
+  --line:#E2EAE5;
+  --bg:#F7FAF8;
+  --surface:#FFFFFF;
+  --radius:22px;
+  --shadow-sm:0 1px 2px rgba(12,31,24,.05), 0 4px 14px rgba(12,31,24,.05);
+  --max:880px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Hind Siliguri',system-ui,-apple-system,'Segoe UI',sans-serif;
+  color:var(--ink); background:var(--bg);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  line-height:1.68;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+
+.ms{
+  display:inline-block;vertical-align:middle;flex-shrink:0;
+  width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;
+  stroke-linecap:round;stroke-linejoin:round;
+}
+
+/* ── Nav ────────────────────────────────────────────────────────────────── */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,255,255,.92);backdrop-filter:blur(16px) saturate(180%);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{display:flex;align-items:center;gap:14px;height:72px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:700;font-size:18.5px;letter-spacing:-.3px}
+.brand img{width:38px;height:38px;border-radius:11px;box-shadow:0 4px 12px rgba(6,78,59,.22)}
+.brand .en{display:block;font-size:10.5px;font-weight:500;color:var(--muted);letter-spacing:.4px;line-height:1;margin-top:2px}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.lang{
+  font-family:inherit;font-size:13.5px;font-weight:700;color:var(--emerald);
+  background:var(--emerald-50);border:1px solid var(--emerald-100);
+  padding:9px 13px;border-radius:999px;cursor:pointer;transition:background .15s;
+}
+.lang:hover{background:var(--emerald-100)}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font-family:inherit;font-size:14px;font-weight:600;line-height:1;
+  padding:11px 18px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);color:var(--ink);box-shadow:var(--shadow-sm);
+  transition:border-color .15s, transform .15s;
+}
+.btn:hover{border-color:#C8D8CF;transform:translateY(-1px)}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.page-head{padding:52px 0 28px}
+.pill{
+  display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;
+  background:var(--emerald-50);border:1px solid var(--emerald-100);color:var(--emerald);
+  padding:6px 14px;border-radius:999px;margin-bottom:16px;
+}
+h1{font-size:clamp(30px,4vw,44px);line-height:1.18;letter-spacing:-1px;font-weight:700}
+.sub{font-size:16.5px;color:var(--muted);margin-top:12px;max-width:44em}
+.meta{margin-top:14px;font-size:13.5px;color:var(--muted)}
+.meta code{
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+  font-size:12.5px;background:var(--emerald-50);color:var(--emerald-900);
+  padding:2px 8px;border-radius:6px;
+}
+
+/* ── Policy Cards ───────────────────────────────────────────────────────── */
+.cards{display:grid;gap:18px;padding-bottom:64px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 28px;box-shadow:var(--shadow-sm);
+}
+.card-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.ic{
+  width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
+  background:var(--emerald-50);color:var(--emerald);flex:0 0 40px;
+}
+.ic .ms{width:21px;height:21px}
+.card h2{font-size:19px;font-weight:700;letter-spacing:-.2px;color:var(--ink)}
+.card p{font-size:15.2px;color:var(--ink-2)}
+.card ul{margin-top:10px;padding-left:20px;display:grid;gap:8px}
+.card li{font-size:15px;color:var(--ink-2)}
+.card a{color:var(--emerald);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+
+/* ── Footer ─────────────────────────────────────────────────────────────── */
+footer{background:var(--surface);border-top:1px solid var(--line);padding:32px 0}
+.fbot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px;color:var(--muted)}
+.fbot a{color:var(--emerald);font-weight:600}
+
+@media (max-width:640px){
+  .card{padding:22px 20px}
+  .btn span{display:none}
+}
+</style>
 </head>
 <body>
-  <main>
-    <h1>Privacy Policy — BachelorHisab (ব্যাচেলর হিসাব)</h1>
-    <p class="muted">Effective date: November 27, 2026 &middot; Package: <code>com.aistudio.bachelorhisab.stdexp</code></p>
 
-    <h2>English</h2>
-    <p><strong>BachelorHisab</strong> is an offline-first personal finance, mess meal, lend/borrow, and budget tracker designed for students.</p>
-    <ul>
-      <li><strong>No account or cloud upload:</strong> All transactions, mess members, bazar records, lend/borrow entries, and budget settings are stored strictly on your device (Room SQLite + Android DataStore).</li>
-      <li><strong>Backups are under your control:</strong> When you use Backup or Import, the database file is saved to or read from the location you choose on your device. We never receive a copy.</li>
-      <li><strong>In-app update check:</strong> The app fetches a public static JSON file (<code>app-update.json</code>) from GitHub Releases to check whether a newer version is available. No personal or financial data is sent with this request.</li>
-      <li><strong>Notifications:</strong> Optional notification permission (Android 13+) is used only to alert you when a newer version is published.</li>
-      <li><strong>No ads, no trackers, no third-party analytics:</strong> We do not sell, share, or collect personal financial information.</li>
-    </ul>
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="ic-back" viewBox="0 0 24 24"><path d="M19 12H5m0 0l6-6m-6 6l6 6"/></symbol>
+    <symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.6-3 8.1-7 9.5-4-1.4-7-4.9-7-9.5V6l7-3z"/><path d="M9 12.2l2 2 4-4.2"/></symbol>
+    <symbol id="ic-cloud-off" viewBox="0 0 24 24"><path d="M3 3l18 18M9.5 6.3A5.5 5.5 0 0 1 17.5 10h.5a4 4 0 0 1 3 6.6M16.5 18H7a4.5 4.5 0 0 1-.8-8.9"/></symbol>
+    <symbol id="ic-backup" viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .8-7.9A5.5 5.5 0 0 0 7.2 8.5 4 4 0 0 0 7 18z"/><path d="M12 15V9.5m0 0L9.5 12M12 9.5l2.5 2.5"/></symbol>
+    <symbol id="ic-bell" viewBox="0 0 24 24"><path d="M18 16v-5a6 6 0 1 0-12 0v5l-2 2h16l-2-2zM10 20a2 2 0 0 0 4 0"/></symbol>
+    <symbol id="ic-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="ic-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></symbol>
+  </defs>
+</svg>
 
-    <hr />
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="BachelorHisab লোগো" width="38" height="38">
+      <span>
+        BachelorHisab
+        <span class="en">ব্যাচেলর হিসাব</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <button class="lang" id="lang" type="button">EN</button>
+      <a class="btn" href="index.html">
+        <svg class="ms" aria-hidden="true"><use href="#ic-back"/></svg>
+        <span data-bn="হোমে ফিরুন" data-en="Back to Home">হোমে ফিরুন</span>
+      </a>
+    </div>
+  </div>
+</nav>
 
-    <h2>বাংলা (গোপনীয়তা নীতি)</h2>
-    <p><strong>ব্যাচেলর হিসাব (BachelorHisab)</strong> শিক্ষার্থীদের জন্য তৈরি একটি সম্পূর্ণ অফলাইন খরচ, মেস, দেনা-পাওনা ও বাজেট ট্র্যাকার।</p>
-    <ul>
-      <li><strong>কোনো অ্যাকাউন্ট বা ক্লাউড আপলোড নেই:</strong> আপনার সব লেনদেন, মেসের হিসাব, দেনা-পাওনা ও বাজেট সেটিংস শুধুমাত্র আপনার ফোনের ভেতরেই সংরক্ষিত থাকে।</li>
-      <li><strong>ব্যাকআপ সম্পূর্ণ আপনার নিয়ন্ত্রণে:</strong> ব্যাকআপ বা ইমপোর্ট করার সময় ডেটাবেস ফাইলটি আপনার নির্বাচিত ফোল্ডারে সেভ হয়। আমাদের সার্ভারে কোনো কপি যায় না।</li>
-      <li><strong>অ্যাপ আপডেট যাচাই:</strong> নতুন ভার্সন এসেছে কিনা জানতে অ্যাপটি কেবল একটি পাবলিক <code>app-update.json</code> ফাইল পড়ে; এর সাথে আপনার কোনো ব্যক্তিগত বা আর্থিক তথ্য পাঠানো হয় না।</li>
-      <li><strong>নোটিফিকেশন:</strong> নতুন ভার্সন এলে আপনাকে জানাতেই শুধুমাত্র নোটিফিকেশন অনুমতি ব্যবহার করা হয়।</li>
-      <li><strong>কোনো বিজ্ঞাপন বা ট্র্যাকার নেই:</strong> আমরা কোনো ব্যক্তিগত তথ্য সংগ্রহ, বিক্রি বা শেয়ার করি না।</li>
-    </ul>
+<main class="wrap">
+  <header class="page-head">
+    <span class="pill">
+      <svg class="ms" aria-hidden="true"><use href="#ic-shield"/></svg>
+      <span data-bn="১০০% অফলাইন ও প্রাইভেট" data-en="100% Offline &amp; Private">১০০% অফলাইন ও প্রাইভেট</span>
+    </span>
+    <h1 data-bn="গোপনীয়তা নীতি" data-en="Privacy Policy">গোপনীয়তা নীতি</h1>
+    <p class="sub" data-bn="BachelorHisab তৈরি করা হয়েছে বাংলাদেশের ব্যাচেলর মেস ও শিক্ষার্থীদের জন্য — আপনার ব্যক্তিগত ও আর্থিক হিসাব সম্পূর্ণভাবে শুধু আপনার ফোনেই নিরাপদ থাকে।" data-en="BachelorHisab is built for Bangladeshi students and bachelor messes — every personal and financial record stays strictly private on your own phone.">
+      BachelorHisab তৈরি করা হয়েছে বাংলাদেশের ব্যাচেলর মেস ও শিক্ষার্থীদের জন্য — আপনার ব্যক্তিগত ও আর্থিক হিসাব সম্পূর্ণভাবে শুধু আপনার ফোনেই নিরাপদ থাকে।
+    </p>
+    <p class="meta">
+      <span data-bn="সর্বশেষ হালনাগাদ: ২৭ নভেম্বর, ২০২৬" data-en="Last updated: November 27, 2026">সর্বশেষ হালনাগাদ: ২৭ নভেম্বর, ২০২৬</span>
+      &nbsp;&middot;&nbsp;
+      <code>com.aistudio.bachelorhisab.stdexp</code>
+    </p>
+  </header>
 
-    <hr />
-    <p class="muted">Developer: Rudro Chandro Sarker (RCS) &middot; Contact: <a href="mailto:rcsbxyz@gmail.com">rcsbxyz@gmail.com</a></p>
-  </main>
+  <section class="cards">
+    <article class="card">
+      <div class="card-head">
+        <span class="ic"><svg class="ms" aria-hidden="true"><use href="#ic-cloud-off"/></svg></span>
+        <h2 data-bn="১. কোনো অ্যাকাউন্ট বা ক্লাউড সংগ্রহ নেই" data-en="1. No Accounts or Cloud Collection">১. কোনো অ্যাকাউন্ট বা ক্লাউড সংগ্রহ নেই</h2>
+      </div>
+      <p data-bn="অ্যাপটি ব্যবহার করতে কোনো সাইন-আপ, ফোন নম্বর, ইমেইল বা ইন্টারনেটের প্রয়োজন নেই। আপনার সব আয়-ব্যয়, মেস মেম্বার, বাজার, দেনা-পাওনা, মাসিক বাজেট ও সেটিংস শুধু আপনার ফোনের লোকাল স্টোরেজেই (Room SQLite এবং Android DataStore) সংরক্ষিত থাকে। আমাদের কোনো সার্ভারে আপনার কোনো ডেটা পাঠানো হয় না।" data-en="No sign-up, phone number, email, or internet connection is required to use BachelorHisab. All transactions, mess members, bazar logs, lend/borrow entries, monthly budget limits, and preferences are stored strictly locally on your device (Room SQLite and Android DataStore). We never upload or access your financial data.">
+        অ্যাপটি ব্যবহার করতে কোনো সাইন-আপ, ফোন নম্বর, ইমেইল বা ইন্টারনেটের প্রয়োজন নেই। আপনার সব আয়-ব্যয়, মেস মেম্বার, বাজার, দেনা-পাওনা, মাসিক বাজেট ও সেটিংস শুধু আপনার ফোনের লোকাল স্টোরেজেই (Room SQLite এবং Android DataStore) সংরক্ষিত থাকে। আমাদের কোনো সার্ভারে আপনার কোনো ডেটা পাঠানো হয় না।
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="ic"><svg class="ms" aria-hidden="true"><use href="#ic-backup"/></svg></span>
+        <h2 data-bn="২. ব্যাকআপ ও রিস্টোর সম্পূর্ণ আপনার নিয়ন্ত্রণে" data-en="2. Backup &amp; Restore Under Your Control">২. ব্যাকআপ ও রিস্টোর সম্পূর্ণ আপনার নিয়ন্ত্রণে</h2>
+      </div>
+      <p data-bn="আপনি সেটিংস থেকে ব্যাকআপ নিলে আপনার নির্বাচিত ফোল্ডারে একটি লোকাল ডেটাবেস ফাইল (bachelorhisab_backup.db) সেভ হয়। ইমপোর্ট করার সময় অ্যাপ কেবল বৈধ SQLite ব্যাকআপ ফাইল যাচাই করে আপনার ডিভাইসেই রিস্টোর করে। ডেভেলপার বা অন্য কেউ কখনো এই ব্যাকআপ ফাইলের কপি পায় না।" data-en="When you export a backup from Settings, a local database snapshot (bachelorhisab_backup.db) is saved only to the location you pick on your phone. When importing, the app validates the SQLite file locally before restoring. Neither the developer nor any third party ever receives a copy.">
+        আপনি সেটিংস থেকে ব্যাকআপ নিলে আপনার নির্বাচিত ফোল্ডারে একটি লোকাল ডেটাবেস ফাইল (bachelorhisab_backup.db) সেভ হয়। ইমপোর্ট করার সময় অ্যাপ কেবল বৈধ SQLite ব্যাকআপ ফাইল যাচাই করে আপনার ডিভাইসেই রিস্টোর করে। ডেভেলপার বা অন্য কেউ কখনো এই ব্যাকআপ ফাইলের কপি পায় না।
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="ic"><svg class="ms" aria-hidden="true"><use href="#ic-bell"/></svg></span>
+        <h2 data-bn="৩. অ্যাপ আপডেট যাচাই ও নোটিফিকেশন" data-en="3. In-App Update Checks &amp; Notifications">৩. অ্যাপ আপডেট যাচাই ও নোটিফিকেশন</h2>
+      </div>
+      <p data-bn="অ্যাপটির নতুন সংস্করণ এসেছে কিনা জানতে ইন্টারনেট চালু থাকলে BachelorHisab শুধুমাত্র আমাদের অফিসিয়াল ওয়েবসাইট থেকে একটি পাবলিক স্ট্যাটিক ফাইল (app-update.json) পড়ে। এই রিকোয়েস্টের সাথে আপনার কোনো ব্যক্তিগত, ডিভাইস আইডি বা আর্থিক তথ্য পাঠানো হয় না।" data-en="When your phone is online, BachelorHisab reads a single public static manifest file (app-update.json) from our official website solely to check whether a newer app version has been released. No personal information, device identifier, or financial record is ever sent with this request.">
+        অ্যাপটির নতুন সংস্করণ এসেছে কিনা জানতে ইন্টারনেট চালু থাকলে BachelorHisab শুধুমাত্র আমাদের অফিসিয়াল ওয়েবসাইট থেকে একটি পাবলিক স্ট্যাটিক ফাইল (app-update.json) পড়ে। এই রিকোয়েস্টের সাথে আপনার কোনো ব্যক্তিগত, ডিভাইস আইডি বা আর্থিক তথ্য পাঠানো হয় না।
+      </p>
+      <ul>
+        <li data-bn="নোটিফিকেশন অনুমতি (Android 13+): শুধুমাত্র নতুন ভার্সন এলে আপনাকে জানানোর জন্য ব্যবহার করা হয়। আপনি চাইলে সেটিংস থেকে যেকোনো সময় এটি বন্ধ করতে পারেন।" data-en="Notification permission (Android 13+): used solely to alert you when a new release is available. You can turn it off anytime from system settings.">নোটিফিকেশন অনুমতি (Android 13+): শুধুমাত্র নতুন ভার্সন এলে আপনাকে জানানোর জন্য ব্যবহার করা হয়। আপনি চাইলে সেটিংস থেকে যেকোনো সময় এটি বন্ধ করতে পারেন।</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="ic"><svg class="ms" aria-hidden="true"><use href="#ic-lock"/></svg></span>
+        <h2 data-bn="৪. কোনো বিজ্ঞাপন বা ট্র্যাকার নেই" data-en="4. Zero Ads, Analytics or Tracking">৪. কোনো বিজ্ঞাপন বা ট্র্যাকার নেই</h2>
+      </div>
+      <p data-bn="BachelorHisab-এ কোনো তৃতীয় পক্ষের বিজ্ঞাপন SDK, ইউজার ট্র্যাকার বা অ্যানালিটিক্স নেই। আমরা কোনো ব্যবহারকারীর তথ্য সংগ্রহ, বিশ্লেষণ, ভাগাভাগি বা বিক্রি করি না। সেটিংস থেকে যেকোনো সময় আপনি এক ক্লিকে নিজের ফোনের সব ডেটা স্থায়ীভাবে মুছে ফেলতে পারবেন।" data-en="BachelorHisab contains no advertising SDKs, no third-party analytics, and no user tracking. We never collect, profile, share, or sell user data. You can permanently erase all local records anytime directly from Settings.">
+        BachelorHisab-এ কোনো তৃতীয় পক্ষের বিজ্ঞাপন SDK, ইউজার ট্র্যাকার বা অ্যানালিটিক্স নেই। আমরা কোনো ব্যবহারকারীর তথ্য সংগ্রহ, বিশ্লেষণ, ভাগাভাগি বা বিক্রি করি না। সেটিংস থেকে যেকোনো সময় আপনি এক ক্লিকে নিজের ফোনের সব ডেটা স্থায়ীভাবে মুছে ফেলতে পারবেন।
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="ic"><svg class="ms" aria-hidden="true"><use href="#ic-mail"/></svg></span>
+        <h2 data-bn="৫. মেধাস্বত্ব ও যোগাযোগ" data-en="5. Ownership, License &amp; Contact">৫. মেধাস্বত্ব ও যোগাযোগ</h2>
+      </div>
+      <p data-bn="BachelorHisab অ্যাপ, এর ডিজাইন ও কনটেন্টের সর্বস্বত্ব ডেভেলপার Rudro Chandro Sarker (RCS)-এর অধীনে সংরক্ষিত। অনুমতি ছাড়া কপি, রিব্র্যান্ডিং বা পুনঃবিতরণ সম্পূর্ণ নিষিদ্ধ। গোপনীয়তা নীতি বা অ্যাপ নিয়ে যেকোনো প্রশ্নে যোগাযোগ করুন:" data-en="BachelorHisab, its design, code, and branding are the proprietary work of Rudro Chandro Sarker (RCS), All Rights Reserved. Unauthorized copying, rebranding, decompilation, or redistribution is prohibited. For any privacy or support questions, contact:">
+        BachelorHisab অ্যাপ, এর ডিজাইন ও কনটেন্টের সর্বস্বত্ব ডেভেলপার Rudro Chandro Sarker (RCS)-এর অধীনে সংরক্ষিত। অনুমতি ছাড়া কপি, রিব্র্যান্ডিং বা পুনঃবিতরণ সম্পূর্ণ নিষিদ্ধ। গোপনীয়তা নীতি বা অ্যাপ নিয়ে যেকোনো প্রশ্নে যোগাযোগ করুন:
+      </p>
+      <ul>
+        <li><strong>Rudro Chandro Sarker (RCS)</strong> &middot; <a href="mailto:rcsbxyz@gmail.com">rcsbxyz@gmail.com</a></li>
+        <li><a href="https://rcsbxyz-hub.github.io/BachelorHisab/">rcsbxyz-hub.github.io/BachelorHisab</a></li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap fbot">
+    <span>© 2026 Rudro Chandro Sarker (RCS) · <span data-bn="সর্বস্বত্ব সংরক্ষিত" data-en="All Rights Reserved">সর্বস্বত্ব সংরক্ষিত</span></span>
+    <a href="index.html" data-bn="অফিসিয়াল হোমপেজে ফিরুন" data-en="Return to Official Homepage">অফিসিয়াল হোমপেজে ফিরুন</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('lang');
+  var nodes = document.querySelectorAll('[data-bn][data-en]');
+  var en = false;
+  btn.addEventListener('click', function () {
+    en = !en;
+    nodes.forEach(function (n) {
+      n.textContent = en ? n.getAttribute('data-en') : n.getAttribute('data-bn');
+    });
+    btn.textContent = en ? 'বাং' : 'EN';
+    document.documentElement.lang = en ? 'en' : 'bn';
+    document.title = en ? 'Privacy Policy — BachelorHisab' : 'গোপনীয়তা নীতি — BachelorHisab';
+  });
+})();
+</script>
 </body>
 </html>

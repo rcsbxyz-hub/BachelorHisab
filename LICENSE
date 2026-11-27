@@ -1,0 +1,42 @@
+PROPRIETARY SOFTWARE LICENSE — ALL RIGHTS RESERVED
+
+BachelorHisab (ব্যাচেলর হিসাব)
+Copyright (c) 2026 Rudro Chandro Sarker (RCS)
+Contact: rcsbxyz@gmail.com
+Official Website: https://rcsbxyz-hub.github.io/BachelorHisab/
+
+All rights reserved.
+
+1. OWNERSHIP
+This software application ("BachelorHisab"), including its source code, compiled
+binaries (APK/AAB), user interface design, layout, branding, artwork, icons,
+documentation, and official website content, is the exclusive intellectual
+property of Rudro Chandro Sarker (RCS) ("the Author").
+
+2. PERMITTED PERSONAL USE
+End users are granted a non-exclusive, non-transferable, revocable license to
+download and install official, unmodified releases of BachelorHisab from the
+Author's official website or official GitHub Releases solely for personal,
+non-commercial use.
+
+3. RESTRICTIONS
+Without prior written permission from the Author, you may NOT:
+  (a) Copy, reproduce, clone, fork, or redistribute the source code or any
+      substantial portion of the application;
+  (b) Modify, adapt, rebrand, white-label, or create derivative works based on
+      BachelorHisab;
+  (c) Decompile, reverse engineer, disassemble, or extract source code, assets,
+      or signing keys from any compiled APK/AAB package;
+  (d) Sell, sublicense, rent, lease, or otherwise commercially exploit the
+      application or host unauthorized mirrors/repackaged APKs.
+
+4. THIRD-PARTY OPEN-SOURCE COMPONENTS
+- The bundled "Hind Siliguri" typeface is licensed under the SIL Open Font
+  License, Version 1.1 (see FONT_LICENSE_Hind_Siliguri.txt).
+- Standard AndroidX / Jetpack / Kotlin libraries remain subject to their
+  respective open-source licenses (Apache 2.0).
+
+5. DISCLAIMER
+This software is provided "AS IS", without warranty of any kind, express or
+implied. In no event shall the Author be liable for any claim, damages, or
+other liability arising from the use of this software.

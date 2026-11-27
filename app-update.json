@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 4,
-  "latestVersionName": "2.0.1",
+  "latestVersionCode": 5,
+  "latestVersionName": "2.1.0",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.0.1.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.1.0.apk",
   "forceUpdate": false,
-  "notes": "Unified official app name to BachelorHisab across the Android launcher, backup filenames, and official website, alongside all v2.0.0 onboarding, user-defined budget, and UX improvements."
+  "notes": "Reliability & security release (v2.1.0): Fixed missing INTERNET permission for live update notifications, fixed backup validation & Android 7-10 snapshot safety, enabled R8 code obfuscation (smaller & protected APK), localized update alerts, and redesigned Privacy Policy."
 }

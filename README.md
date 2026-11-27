@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.0.1.apk"><strong>⬇️ Download Latest APK (v2.0.1)</strong></a>
+  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.1.0.apk"><strong>⬇️ Download Latest APK (v2.1.0)</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://rcsbxyz-hub.github.io/BachelorHisab/"><strong>🌐 Official Website</strong></a>
   &nbsp;&middot;&nbsp;
@@ -84,5 +84,5 @@ To publish a new version (e.g. `v1.2.0` / `versionCode = 3`):
 ---
 
 <p align="center">
-  Developed by <strong>Rudro Chandro Sarker (RCS)</strong> · <a href="mailto:rcsbxyz@gmail.com">rcsbxyz@gmail.com</a>
+  © 2026 <strong>Rudro Chandro Sarker (RCS)</strong> · All Rights Reserved (<a href="LICENSE">License</a>) · <a href="mailto:rcsbxyz@gmail.com">rcsbxyz@gmail.com</a>
 </p>
