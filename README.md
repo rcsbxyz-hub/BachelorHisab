@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.3.0.apk"><strong>⬇️ Download Latest APK (v2.3.0)</strong></a>
+  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.4.0.apk"><strong>⬇️ Download Latest APK (v2.4.0)</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://rcsbxyz-hub.github.io/BachelorHisab/"><strong>🌐 Official Website</strong></a>
   &nbsp;&middot;&nbsp;
@@ -38,7 +38,8 @@
 - **📅 Monthly Scoping:** Track balances, income, expenses, and budget progress per calendar month with an instant month switcher (`< Month Year >`) and all-time transaction history.
 - **🍛 Mess & Meal Manager:** Inline `−0.5` / `+0.5` / `+1` quick meal stepper, editable bazar logs with opt-in personal expense toggle, automatic meal rates, 1-tap WhatsApp/Messenger report sharing, and Start New Month reset.
 - **🤝 Lend & Borrow Ledger:** Keep track of receivables and payables between friends with full entry editing and one-tap settle toggles.
-- **📊 Budget & Analytics:** Visual 270° budget ring, over-budget alerts, category breakdown bars, and payment-method summaries.
+- **📊 Budget, Bills & Statements:** Visual 270° budget ring, 6-month Income vs. Expense bar chart, Category Donut chart, 1-tap Fixed Monthly Bills (Rent, WiFi, Electricity, Maid), and offline **PDF & CSV** monthly statement exports.
+- **🔐 App Lock & Home Screen Widget:** Optional Fingerprint / Face / Device PIN lock in Settings, plus a 4×2 Home Screen widget showing balance, expense, meal rate, and 1-tap `+ Expense` / `+ Bazar` shortcuts.
 - **🇧🇩 Bilingual & Adaptive Theme:** Instant one-tap switch between **বাংলা** and **English** (rendered cleanly with **Hind Siliguri**), plus **Light**, **Dark**, and **System** themes.
 - **💾 Safe Backup & Restore:** Full SQLite snapshot export and staged restore — your financial records never leave your phone.
 - **🔔 Automatic Update Alerts:** Checks [`app-update.json`](app-update.json) automatically so you always know when a newer version is ready on the official website.

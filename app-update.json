@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 7,
-  "latestVersionName": "2.3.0",
+  "latestVersionCode": 8,
+  "latestVersionName": "2.4.0",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.3.0.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.4.0.apk",
   "forceUpdate": false,
-  "notes": "Analytics, Bills & Statements (v2.3.0): Export monthly statements as offline PDF or UTF-8 CSV (Excel/Sheets ready), 1-tap Fixed Monthly Bills (Rent, WiFi, Electricity, Maid) with lossless DB migration, 6-month Income vs Expense bar chart, Category Donut chart, and Mess deposit coverage bars."
+  "notes": "Security & Home Widget (v2.4.0): Optional Fingerprint/PIN App Lock in Settings, 4x2 Home Screen Widget showing monthly balance, expense, meal rate & 1-tap +Expense/+Bazar shortcuts, plus automated Android CI checks."
 }
