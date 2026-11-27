@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.2.0.apk"><strong>⬇️ Download Latest APK (v2.2.0)</strong></a>
+  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.3.0.apk"><strong>⬇️ Download Latest APK (v2.3.0)</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://rcsbxyz-hub.github.io/BachelorHisab/"><strong>🌐 Official Website</strong></a>
   &nbsp;&middot;&nbsp;

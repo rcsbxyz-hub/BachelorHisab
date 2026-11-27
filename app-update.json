@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 6,
-  "latestVersionName": "2.2.0",
+  "latestVersionCode": 7,
+  "latestVersionName": "2.3.0",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.2.0.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.3.0.apk",
   "forceUpdate": false,
-  "notes": "Major UX polish (v2.2.0): Inline quick meal stepper (-0.5 / +0.5 / +1) on member cards, 1-tap WhatsApp/Messenger mess report sharing, Start New Month reset, opt-in personal expense toggle for mess bazar, transaction date picker (Today/Yesterday/Calendar), and full editing for bazar & lend/borrow entries."
+  "notes": "Analytics, Bills & Statements (v2.3.0): Export monthly statements as offline PDF or UTF-8 CSV (Excel/Sheets ready), 1-tap Fixed Monthly Bills (Rent, WiFi, Electricity, Maid) with lossless DB migration, 6-month Income vs Expense bar chart, Category Donut chart, and Mess deposit coverage bars."
 }
