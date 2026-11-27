@@ -1,4 +1,4 @@
-﻿# BachelorHisab (ব্যাচেলর হিসাব) — Official Releases
+# BachelorHisab (ব্যাচেলর হিসাব) — Official Releases
 
 **BachelorHisab** is a bilingual (বাংলা + English), 100% offline Android app built for students living in shared bachelor messes in Bangladesh — tracking personal expenses & income, mess meal rates & utilities, lend/borrow balances, and monthly budgets.
 
