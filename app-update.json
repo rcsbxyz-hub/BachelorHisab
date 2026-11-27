@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 9,
-  "latestVersionName": "2.4.1",
+  "latestVersionCode": 10,
+  "latestVersionName": "2.5.0",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.4.1.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.5.0.apk",
   "forceUpdate": false,
-  "notes": "Update Reliability Fix (v2.4.1): Removed stale jsDelivr fallback, added cache-busting manifest requests, automatic update check on app resume + 2-hour background checks, immediate notification check after permission grant, and live version/status feedback in Settings."
+  "notes": "10/10 Premium Polish (v2.5.0): Native Bangla numerals (০-৯) in Bangla mode, swipe-right to Edit & swipe-left to Delete (with Undo) on transactions, tactile haptic feedback, smooth tab/balance/chart animations, and smart Home unpaid-bill reminder card."
 }
