@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 2,
-  "latestVersionName": "1.1.0",
+  "latestVersionCode": 3,
+  "latestVersionName": "2.0.0",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v1.1.0.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.0.0.apk",
   "forceUpdate": false,
-  "notes": "Adds transaction editing, monthly balance & budget scoping with month switcher, first-run onboarding with sample data, and reliable GitHub update checks."
+  "notes": "Major UX update (v2.0.0): New 3-step bilingual onboarding guide, zero dummy data on fresh install, user-defined monthly budget (no forced à§³10,000 limit) with daily spending guide, cleaner Settings without website URL clutter, and improved month switcher with no future-month confusion."
 }
