@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 8,
-  "latestVersionName": "2.4.0",
+  "latestVersionCode": 9,
+  "latestVersionName": "2.4.1",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.4.0.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.4.1.apk",
   "forceUpdate": false,
-  "notes": "Security & Home Widget (v2.4.0): Optional Fingerprint/PIN App Lock in Settings, 4x2 Home Screen Widget showing monthly balance, expense, meal rate & 1-tap +Expense/+Bazar shortcuts, plus automated Android CI checks."
+  "notes": "Update Reliability Fix (v2.4.1): Removed stale jsDelivr fallback, added cache-busting manifest requests, automatic update check on app resume + 2-hour background checks, immediate notification check after permission grant, and live version/status feedback in Settings."
 }
