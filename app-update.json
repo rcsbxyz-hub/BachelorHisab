@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 5,
-  "latestVersionName": "2.1.0",
+  "latestVersionCode": 6,
+  "latestVersionName": "2.2.0",
   "url": "https://rcsbxyz-hub.github.io/BachelorHisab/#download",
-  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.1.0.apk",
+  "apkUrl": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.2.0.apk",
   "forceUpdate": false,
-  "notes": "Reliability & security release (v2.1.0): Fixed missing INTERNET permission for live update notifications, fixed backup validation & Android 7-10 snapshot safety, enabled R8 code obfuscation (smaller & protected APK), localized update alerts, and redesigned Privacy Policy."
+  "notes": "Major UX polish (v2.2.0): Inline quick meal stepper (-0.5 / +0.5 / +1) on member cards, 1-tap WhatsApp/Messenger mess report sharing, Start New Month reset, opt-in personal expense toggle for mess bazar, transaction date picker (Today/Yesterday/Calendar), and full editing for bazar & lend/borrow entries."
 }

@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.1.0.apk"><strong>⬇️ Download Latest APK (v2.1.0)</strong></a>
+  <a href="https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest/download/BachelorHisab-v2.2.0.apk"><strong>⬇️ Download Latest APK (v2.2.0)</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://rcsbxyz-hub.github.io/BachelorHisab/"><strong>🌐 Official Website</strong></a>
   &nbsp;&middot;&nbsp;
@@ -34,10 +34,10 @@
 
 ## ✨ Key Features
 
-- **⚡ Quick Add & Edit:** Amount-first numeric keypad sheet with one-tap categories, payment methods (`Cash`, `bKash`, `Nagad`, `Bank / Card`), full entry editing, and Undo-on-delete.
+- **⚡ Quick Add & Edit:** Amount-first numeric keypad sheet with date picker (`Today` / `Yesterday` / `Calendar`), one-tap categories, payment methods (`Cash`, `bKash`, `Nagad`, `Bank / Card`), full entry editing, and Undo-on-delete.
 - **📅 Monthly Scoping:** Track balances, income, expenses, and budget progress per calendar month with an instant month switcher (`< Month Year >`) and all-time transaction history.
-- **🍛 Mess & Meal Manager:** Track roommates' deposits, meal counts, shared bazar logs, automatic meal rates, and utility splits.
-- **🤝 Lend & Borrow Ledger:** Keep track of receivables and payables between friends with one-tap settle toggles.
+- **🍛 Mess & Meal Manager:** Inline `−0.5` / `+0.5` / `+1` quick meal stepper, editable bazar logs with opt-in personal expense toggle, automatic meal rates, 1-tap WhatsApp/Messenger report sharing, and Start New Month reset.
+- **🤝 Lend & Borrow Ledger:** Keep track of receivables and payables between friends with full entry editing and one-tap settle toggles.
 - **📊 Budget & Analytics:** Visual 270° budget ring, over-budget alerts, category breakdown bars, and payment-method summaries.
 - **🇧🇩 Bilingual & Adaptive Theme:** Instant one-tap switch between **বাংলা** and **English** (rendered cleanly with **Hind Siliguri**), plus **Light**, **Dark**, and **System** themes.
 - **💾 Safe Backup & Restore:** Full SQLite snapshot export and staged restore — your financial records never leave your phone.
