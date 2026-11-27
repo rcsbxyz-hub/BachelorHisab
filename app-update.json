@@ -1,7 +1,7 @@
 {
-  "latestVersionCode": 1,
-  "latestVersionName": "1.0",
+  "latestVersionCode": 2,
+  "latestVersionName": "1.1.0",
   "url": "https://github.com/rcsbxyz-hub/BachelorHisab/releases/latest",
   "forceUpdate": false,
-  "notes": "Initial public release of BachelorHisab â€” bilingual Bangla & English expense, mess, lend/borrow, and budget tracker."
+  "notes": "Adds transaction editing, monthly balance & budget scoping with month switcher, first-run onboarding with sample data, and reliable GitHub update checks."
 }
