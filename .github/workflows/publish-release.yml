@@ -34,17 +34,10 @@ jobs:
             echo "APK not found at $APK"
             exit 1
           fi
-          NOTES=$(python3 -c 'import json; d=json.load(open("app-update.json")); print(d.get("notes", ""))')
-          BODY="Bilingual (বাংলা + English) offline expense, mess meal, lend/borrow, and monthly budget tracker for students.
-
-### What's new in ${TAG}
-${NOTES}
-
-Official website: https://rcsbxyz-hub.github.io/BachelorHisab/"
-
+          python3 -c 'import json, os; tag=os.environ["TAG"]; notes=json.load(open("app-update.json")).get("notes", ""); open("release-notes.md", "w", encoding="utf-8").write(f"Bilingual (বাংলা + English) offline expense, mess meal, lend/borrow, and monthly budget tracker for students.\n\n### What is new in {tag}\n{notes}\n\nOfficial website: https://rcsbxyz-hub.github.io/BachelorHisab/\n")'
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" "$APK" --clobber
-            gh release edit "$TAG" --title "BachelorHisab ${TAG}" --notes "$BODY" --latest
+            gh release edit "$TAG" --title "BachelorHisab ${TAG}" --notes-file release-notes.md --latest
           else
-            gh release create "$TAG" "$APK" --title "BachelorHisab ${TAG}" --notes "$BODY" --latest
+            gh release create "$TAG" "$APK" --title "BachelorHisab ${TAG}" --notes-file release-notes.md --latest
           fi
